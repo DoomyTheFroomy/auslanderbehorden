@@ -1,0 +1,5 @@
+This scraper extracts the address data of German aliens registration authorities. It parses the website ortsdienst.de in order to store common address data such as address, phone and fax number and email.
+
+TODO:
+--------
+There are a some levels of cascading when following the links. This can be seen when clicking on the breadcrump navigation of a detail page which shows more addresses in the neighborhood. It might be of value to digg deeper to unveil more address data.
