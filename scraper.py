@@ -1,8 +1,7 @@
-'''
-  Extracting machine readable address data of German "Ausländerbehörden".
-  Version, 4 June 2013.
-  @author johnjohndoe 
-'''
+#  Extracting machine readable address data of German "Ausländerbehörden".
+# Version, 4 June 2013.
+#  @author johnjohndoe 
+
 
 import scraperwiki
 import lxml.html
