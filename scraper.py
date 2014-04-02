@@ -151,6 +151,9 @@ domain = "http://www.ortsdienst.de"
 url = "http://www.ortsdienst.de/Auslaenderbehoerde"
 detail_test_url = "http://www.ortsdienst.de/Thueringen/Gotha/Gotha/Auslaenderbehoerde/Auslaenderbehoerde-des-Landkreises-inst96222/"
 
+#  Extracting machine readable address data of German "Ausländerbehörden".
+#  Version, 4 June 2013.
+#  @author johnjohndoe 
 
 # parse_detail_page(detail_test_url)
 # parse_main_page(url)
@@ -159,5 +162,7 @@ detail_test_url = "http://www.ortsdienst.de/Thueringen/Gotha/Gotha/Auslaenderbeh
 
 # urls = parse_navi_string("/Auslaenderbehoerde/?Seite=5")
 # print urls
+
+
 
 main(domain, url)
